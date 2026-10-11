@@ -19,7 +19,7 @@ Relevant path: Alexa+ alternative simulation, current rules paragraphs shown at 
 Deadline: October 23, 2026, 12:00 PDT / 19:00 UTC / 21:00 Europe/Amsterdam.
 
 READY: new local prototype; English description; MIT license; source and run instructions; tests; truthful AI-assisted-development disclosure.
-SOURCE: https://github.com/BizzKittai/backontrack — public GitHub repository with MIT license; complete source is being published and will be checked after the commit.
+SOURCE: https://github.com/BizzKittai/backontrack — public GitHub repository with MIT license; all 13 source/documentation files were verified against the reviewed local package on October 11, 2026.
 MISSING: public YouTube/Vimeo video link, under three minutes. A local MP4 alone does not complete this item. VIDEO_URL=PLACEHOLDER_MISSING.
 OWNER-ONLY PREVIEW: cannot establish judging access; sharing must be verified.
 PENDING HUMAN: organization representative, eligibility/identity declarations and acceptance of binding competition/platform terms. No declaration has been fabricated.

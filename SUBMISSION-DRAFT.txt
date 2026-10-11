@@ -34,9 +34,9 @@ Onboarding: no Amazon developer-service onboarding occurred. We therefore cannot
 Would we build with those services again? Not evaluated. A later live integration would need its own feasibility and permission review.
 Friction log: none claimed; no invented errors, benchmarks or bonus eligibility.
 
-Links — source publication prepared; verify repository contents after the commit. Missing video/preview placeholders must not be submitted as URLs.
+Links — public GitHub source verified. Missing video/preview placeholders must not be submitted as URLs.
 SOURCE_URL: https://github.com/BizzKittai/backontrack
 VIDEO_URL: PLACEHOLDER_MISSING_PUBLIC_YOUTUBE_OR_VIMEO_VIDEO
 PREVIEW_URL: PLACEHOLDER_OWNER_ONLY_PREVIEW_IS_NOT_VERIFIED_REVIEWER_ACCESS
 
-Current status: local draft prepared; no contest entry submitted; no award received; revenue received 0.
+Current status: public source published and verified; local demo and factual draft prepared; no contest entry submitted; no award received; revenue received 0.
