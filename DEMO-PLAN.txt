@@ -22,7 +22,10 @@ READY: new local prototype; English description; MIT license; source and run ins
 SOURCE: https://github.com/BizzKittai/backontrack — public GitHub repository with MIT license; all 13 source/documentation files were verified against the reviewed local package on October 11, 2026.
 MISSING: public YouTube/Vimeo video link, under three minutes. A local MP4 alone does not complete this item. VIDEO_URL=PLACEHOLDER_MISSING.
 OWNER-ONLY PREVIEW: cannot establish judging access; sharing must be verified.
-PENDING HUMAN: organization representative, eligibility/identity declarations and acceptance of binding competition/platform terms. No declaration has been fabricated.
-PENDING: registration and final submission, track selection and factual product feedback in the actual form.
+REGISTERED: hackathon registration completed by the authorized user and confirmed by Devpost on October 11, 2026.
+PERSONAL FEEDBACK: the authorized user supplied the required learning, career-value and future-use answers; these were saved in the project draft.
+PENDING HUMAN: final project eligibility declarations and final submission terms/action. No declaration has been fabricated.
+DRAFT SAVED: BackOnTrack project 1232081; name/pitch, description, HTML/CSS/JavaScript tags, public source URL, Organization BizzKitt BV, Netherlands, New, Alexa+ track and factual feedback. AWS Builder and Open Source mini challenges: No.
+PENDING: public video and subtitles, final personal declarations and final submission.
 NOT CLAIMED: AWS Builder mini challenge, integration performance, friction-log bonus or an existing winner.
 STATUS: unsubmitted. AWARD: none. RECEIVED REVENUE: 0.

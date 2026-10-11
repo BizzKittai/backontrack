@@ -1,9 +1,9 @@
-BACKONTRACK — DRAFT, NOT SUBMITTED
+BACKONTRACK — REGISTERED, PROJECT DRAFT SAVED, NOT SUBMITTED
 
 Proposed primary track: Alexa+ — alternative simulated experience. Individual project eligibility has not been confirmed by the organizers.
 Mini challenges: none selected. No AWS Builder or other integration claim.
 Organization: BizzKitt BV.
-Authorized representative / eligibility declarations: NOT COMPLETED; a human representative must provide and verify these fields.
+Hackathon registration: confirmed in Devpost with “Thanks for registering!”. Project draft 1232081 is saved. The actual representative must still review the three final project eligibility declarations; they remain unchecked.
 
 Tagline
 Recover from a cancelled journey, coordinate the evening, and inspect every simulated step before confirming.
@@ -31,7 +31,7 @@ Amazon materials used: the published hackathon rules and simulated-experience pl
 What worked: the stated simulated-experience option made it possible to prepare a focused local interaction without hardware or service credentials.
 What needs clarification: how judges assess a deterministic simulation's depth relative to live integrations. This is a question from reading the rules, not a measured platform failure or a support interaction.
 Onboarding: no Amazon developer-service onboarding occurred. We therefore cannot report setup time, SDK reliability or API performance.
-Would we build with those services again? Not evaluated. A later live integration would need its own feasibility and permission review.
+Would the actual representative build with Amazon services again, and why? Yes. The representative confirmed that they enjoy this work and regard it as a passion. This expresses a preference for future work; the prototype has not integrated Amazon devices or services. A live integration would need a separate feasibility and permission review.
 Friction log: none claimed; no invented errors, benchmarks or bonus eligibility.
 
 Links — public GitHub source verified. Missing video/preview placeholders must not be submitted as URLs.
@@ -39,4 +39,12 @@ SOURCE_URL: https://github.com/BizzKittai/backontrack
 VIDEO_URL: PLACEHOLDER_MISSING_PUBLIC_YOUTUBE_OR_VIMEO_VIDEO
 PREVIEW_URL: PLACEHOLDER_OWNER_ONLY_PREVIEW_IS_NOT_VERIFIED_REVIEWER_ACCESS
 
-Current status: public source published and verified; local demo and factual draft prepared; no contest entry submitted; no award received; revenue received 0.
+Current status: hackathon registration confirmed; project draft 1232081 saved with title, tagline, description, HTML/CSS/JavaScript tags, source URL, organization/track information, five factual feedback answers and Codex disclosure. The three user-confirmed personal answers are saved and verified. Three final project eligibility declarations remain pending. Public video URL is absent. No contest entry submitted, award received or payment confirmed; revenue received 0.
+
+LIVE DEVPOST DRAFT STATUS — 11 October 2026
+Draft ID: 1232081 (DRAFT, not submitted).
+Saved technology tags: html, css, javascript. Codex is disclosed as development assistance; Node.js is used for testing.
+Saved organization: BizzKitt BV; Netherlands; new project; Alexa+; no mini challenges.
+Actual user-confirmed personal answers, saved and verified: Moderate learning, Yes to AI’s career value, and Yes to future Amazon development with the representative’s own reason. These are personal responses and do not establish runtime integration experience.
+The three final project eligibility declarations remain unchecked. The public YouTube/Vimeo URL is missing. Do not submit URL placeholders or the owner-only preview. The final contest submission must be performed by the actual representative.
+Public readiness documentation records the confirmed registration and saved draft. The application and its reviewed tests are unchanged; final submission remains pending.

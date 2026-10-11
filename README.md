@@ -50,7 +50,7 @@ The export is a local snapshot of simulated state, not a tamper-proof audit log.
 
 Source repository: https://github.com/BizzKittai/backontrack. The public YouTube/Vimeo video is still pending. The 60-second local MP4 is an edited sequence of actual browser screenshots; it is not a continuous live recording. Any owner-only hosted preview is separate from the contest's source/video deliverables. See `DEMO-PLAN.txt` for the current readiness status and official reference.
 
-The alternate simulation route is stated in the contest rules. Individual admission of this deterministic prototype remains the organizers' decision. No registration, final submission or prize has been confirmed.
+The alternate simulation route is stated in the contest rules. Individual admission of this deterministic prototype remains the organizers' decision. The authorized user completed hackathon registration on October 11, 2026, and the BackOnTrack project draft was saved. The public demo video and final eligibility declarations remain pending. No final submission or prize has been confirmed.
 
 ## License
 
