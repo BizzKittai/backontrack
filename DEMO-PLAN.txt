@@ -1,0 +1,28 @@
+BACKONTRACK — PREPARED SCREEN DEMO
+
+Produced file: outputs/bizzkitt-backontrack-demo.mp4, 60 seconds, H.264, 1080×1440.
+Six actual browser screenshots of the working prototype are presented as an edited sequence with English subtitle captions. This is not a continuous live recording and does not demonstrate integration latency or real services. The separate .srt file is supplied for platform caption upload.
+
+0–10 seconds: Ready state and fictional local simulation disclosure.
+10–20 seconds: Cancelled journey produces a €14 bus plan with calendar/transit/household checks.
+20–30 seconds: €10 budget produces a €9 replacement-train plan.
+30–40 seconds: Confirmed local mock reservation, arrival and household notice.
+40–50 seconds: A 30-minute deadline with a €10 budget produces an infeasible state and clears confirmation.
+50–60 seconds: A full bus triggers automatic replanning to the replacement train.
+
+The JSON export was independently downloaded and verified, but is not shown in this prepared video. No public video URL exists yet. A public YouTube/Vimeo upload remains necessary; a local MP4 is not an entry.
+
+CENTRAL SUBMISSION READINESS — checked October 11, 2026
+
+Official reference: https://amazonappdev2026.devpost.com/rules
+Relevant path: Alexa+ alternative simulation, current rules paragraphs shown at lines 199–200. No particular framework or MCP surface is required for that path; source and a demonstrated simulation remain necessary. Acceptance is the organizers' decision.
+Deadline: October 23, 2026, 12:00 PDT / 19:00 UTC / 21:00 Europe/Amsterdam.
+
+READY: new local prototype; English description; MIT license; source and run instructions; tests; truthful AI-assisted-development disclosure.
+SOURCE: https://github.com/BizzKittai/backontrack — public GitHub repository with MIT license; complete source is being published and will be checked after the commit.
+MISSING: public YouTube/Vimeo video link, under three minutes. A local MP4 alone does not complete this item. VIDEO_URL=PLACEHOLDER_MISSING.
+OWNER-ONLY PREVIEW: cannot establish judging access; sharing must be verified.
+PENDING HUMAN: organization representative, eligibility/identity declarations and acceptance of binding competition/platform terms. No declaration has been fabricated.
+PENDING: registration and final submission, track selection and factual product feedback in the actual form.
+NOT CLAIMED: AWS Builder mini challenge, integration performance, friction-log bonus or an existing winner.
+STATUS: unsubmitted. AWARD: none. RECEIVED REVENUE: 0.

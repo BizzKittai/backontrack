@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="An offline agent simulation that coordinates travel, calendar and household plans after a disruption.">
+  <meta name="theme-color" content="#193f37">
+  <title>BackOnTrack — an evening recovered</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to planner</a>
+  <header><a class="brand" href="./"><span aria-hidden="true">↝</span> BackOnTrack</a><span class="simulation">LOCAL SIMULATION</span><a class="back" href="#evidence-heading">How it works ↗</a></header>
+  <main id="main">
+    <section class="intro"><div><span class="eyebrow">ONE INTERRUPTION. ONE COORDINATED PLAN.</span><h1>Your train stopped.<br>Your evening <em>doesn’t have to.</em></h1><p>A travel change can ripple through the rest of your day. Recover the journey, check the calendar and keep your household in the loop — together.</p><div class="scope-note"><span>◉</span> Simulated Alexa+ experience. Fictional transit, calendar and household data. No real bookings or messages.</div></div><div class="journey-art" aria-label="Journey from Amsterdam to Utrecht"><span class="art-label">TONIGHT’S JOURNEY</span><div class="station"><i></i><div>Amsterdam<small>Train cancelled</small></div></div><div class="detour"><span>↗</span> A better route is still possible</div><div class="station destination"><i></i><div>Utrecht<small>Home, and the rest of your evening</small></div></div></div></section>
+    <div class="workspace">
+      <section class="planner" aria-labelledby="planner-heading"><div class="section-heading"><div><span class="eyebrow">YOUR RECOVERY DESK</span><h2 id="planner-heading">Make the evening work.</h2></div><span id="phase" class="phase">Ready</span></div>
+        <div id="conversation" class="conversation" aria-live="polite"></div>
+        <div class="quick-actions"><button id="start" class="primary">My train was cancelled ↗</button><button id="budget-chip">Keep it under €10</button><button id="bus-chip">The bus is full</button></div>
+        <form id="constraints"><label>Travel budget <span>EUR</span><input id="budget" type="number" min="0" max="10000" step="0.01" value="20" required></label><label>Arrive within <span>MINUTES</span><input id="deadline" type="number" min="1" max="1440" step="1" value="50" required></label><button type="submit">Update plan →</button></form>
+        <p id="error" class="error" role="alert" hidden></p>
+        <div id="plan" class="plan" aria-live="polite"></div>
+        <div class="footer-actions"><button id="confirm" class="primary" disabled>Confirm simulated plan</button><button id="export" disabled>↓ Export evidence</button><button id="reset">Reset demo</button></div>
+      </section>
+      <aside class="evidence" aria-labelledby="evidence-heading"><span class="eyebrow">WHY THIS PLAN?</span><h2 id="evidence-heading">An agent you can follow.</h2><p class="muted">Every step has a reason. Constraints are checked before a plan can be confirmed.</p><div class="context"><div><span>Calendar</span><strong id="calendar-context">Home check-in in 50 min</strong></div><div><span>Preference</span><strong>Fastest within budget</strong></div><div><span>Services</span><strong>Transit · calendar · household</strong></div></div><div id="trace" class="trace"></div><details><summary>How this prototype works</summary><p>Local rules select a route and coordinate mock tools. This prototype has no live model, Alexa connection, transport feed or paid API. Tool results are fictional. An actual integration would need authenticated services, fresh availability and permission to act.</p></details></aside>
+    </div>
+    <footer><span>A prototype by BizzKitt · built with AI assistance</span><span>Browser-local state · no external actions</span></footer>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

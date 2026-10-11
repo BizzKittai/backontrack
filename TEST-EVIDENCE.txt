@@ -1,0 +1,41 @@
+BACKONTRACK — TEST EVIDENCE
+
+Evidence scope: local rule-based prototype, checked during development October 10–11, 2026.
+
+ENGINE
+Command from the project directory: node --test engine.test.mjs
+Actual result: 15 tests, 15 passed, 0 failed, 0 skipped.
+The integration operator also reran these tests successfully.
+
+Covered behavior:
+1. Default fastest feasible bus and cheaper train alternative.
+2. Lower budget selects the train with exact integer-cent accounting.
+3. Tight deadline and sufficient taxi budget are both required.
+4. Inclusive budget and time boundaries.
+5. Blocking the preferred route automatically selects a replacement.
+6. All blocked routes produce reasons and cannot be confirmed.
+7. Confirmation records mock actions only and repeated confirmation is idempotent.
+8. Valid constraint changes invalidate previous confirmation.
+9. Making a confirmed plan infeasible removes stale confirmation.
+10. Frozen input state remains unchanged; returned routes do not mutate fixtures.
+11. Coercible, non-finite, negative and out-of-range budgets are rejected.
+12. Unknown actions and malicious route identifiers cannot inject tools or routes.
+13. Invalid deadline values are rejected.
+14. Tool trace is bounded; state survives JSON serialization.
+15. Reset clears constraints, trace, blocked routes and confirmation.
+
+BROWSER INTEGRATION
+Completed through the actual browser interface by the integration operator:
+- Start the scenario: €14 bus, 35 minutes.
+- Apply the €10 quick-budget action: €9 replacement train, 45 minutes.
+- Confirm: local mock coordination only.
+- Apply a €20 budget and 30-minute arrival window: infeasible state; confirmation disabled.
+- Export evidence: browser download produced JSON with the simulated disclaimer and externalActionsPerformed:false.
+
+LIMITS
+These checks do not validate live transport availability, an Alexa+ deployment, runtime AI, AWS integration, a real calendar, household messaging or any bank/payment operation. No external actions were performed.
+Session restoration reconstructs current derived state and trace; this is not an authenticated historical audit trail. A separate reload/restoration acceptance test is not claimed here.
+No contest entry, public source accessibility, public video upload, prize eligibility, ranking or payment has been verified by these tests.
+
+INDEPENDENT SOURCE REVIEW — October 11, 2026
+The 15 existing engine tests passed again. Fourteen additional app, storage-restoration and JSON-export scenarios passed in a Node VM using the actual app.js and engine with mocked browser APIs. These are separate from actual browser checks; see FINAL-REVIEW.txt for scope, results and reviewed source hashes. No application code change was required.

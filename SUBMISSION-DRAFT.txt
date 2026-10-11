@@ -1,0 +1,42 @@
+BACKONTRACK — DRAFT, NOT SUBMITTED
+
+Proposed primary track: Alexa+ — alternative simulated experience. Individual project eligibility has not been confirmed by the organizers.
+Mini challenges: none selected. No AWS Builder or other integration claim.
+Organization: BizzKitt BV.
+Authorized representative / eligibility declarations: NOT COMPLETED; a human representative must provide and verify these fields.
+
+Tagline
+Recover from a cancelled journey, coordinate the evening, and inspect every simulated step before confirming.
+
+What it does
+BackOnTrack explores a small recovery assistant for someone whose travel disruption affects the rest of their evening. In a fictional Amsterdam-to-Utrecht scenario, the user asks for help getting home. The prototype considers travel cost, time available in a mock calendar and an update for a mock household. It selects the fastest route that meets both constraints and explains excluded options.
+
+A lower budget or unavailable route triggers automatic replanning. If no route can meet both constraints, the assistant explains why and refuses confirmation. Confirmation records a mock reservation, calendar update and household notice. The user can inspect the tool trace and export the resulting simulated state.
+
+How it is built
+The prototype uses HTML, CSS and JavaScript modules with a small deterministic planner. Budgets use integer cents. State transitions are immutable and constraints are validated. Browser localStorage retains the current scenario; restored traces are reconstructed from that state. The export is a simulated evidence snapshot, not a tamper-proof audit log.
+
+AI-assisted development disclosure
+Codex assisted implementation, testing and preparation of this draft. No AI model executes inside the application. The application does not call Alexa+, AWS, transport APIs, real calendars or messaging APIs. Its tool names represent local mock operations. All travel times, costs and household context are fictional. There are no actual bookings, messages, payments or external service actions.
+
+What is distinctive
+The interaction keeps a travel change connected to time constraints and household coordination. It shows how changing constraints invalidates previous confirmation, rather than treating each request as an isolated response. The infeasible state is demonstrated as part of the core journey.
+
+Evidence
+Fifteen engine tests passed. Browser integration checks confirmed the default bus plan, a €10-budget replacement train, mock confirmation, an infeasible 30-minute scenario, and a downloaded JSON export marked as simulated. See TEST-EVIDENCE.txt for scope and limits.
+
+Product feedback — actual experience only
+Tools used: Codex for development; HTML/CSS/JavaScript and a browser for the simulation; Node's test runner for planner validation.
+Amazon materials used: the published hackathon rules and simulated-experience planning guidance. We have not onboarded an Alexa+, AWS, Bee, Ring or other Amazon runtime integration for this prototype.
+What worked: the stated simulated-experience option made it possible to prepare a focused local interaction without hardware or service credentials.
+What needs clarification: how judges assess a deterministic simulation's depth relative to live integrations. This is a question from reading the rules, not a measured platform failure or a support interaction.
+Onboarding: no Amazon developer-service onboarding occurred. We therefore cannot report setup time, SDK reliability or API performance.
+Would we build with those services again? Not evaluated. A later live integration would need its own feasibility and permission review.
+Friction log: none claimed; no invented errors, benchmarks or bonus eligibility.
+
+Links — source publication prepared; verify repository contents after the commit. Missing video/preview placeholders must not be submitted as URLs.
+SOURCE_URL: https://github.com/BizzKittai/backontrack
+VIDEO_URL: PLACEHOLDER_MISSING_PUBLIC_YOUTUBE_OR_VIMEO_VIDEO
+PREVIEW_URL: PLACEHOLDER_OWNER_ONLY_PREVIEW_IS_NOT_VERIFIED_REVIEWER_ACCESS
+
+Current status: local draft prepared; no contest entry submitted; no award received; revenue received 0.

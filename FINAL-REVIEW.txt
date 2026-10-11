@@ -1,0 +1,84 @@
+BACKONTRACK — INDEPENDENT LOCAL SOURCE REVIEW
+Review date: 2026-10-11
+Source directory: work/income-expansion/shift-demo
+Disposition: No concrete functional, security or privacy blocker found in
+the reviewed application code. No code changes were necessary.
+
+Scope
+Reviewed app.js, engine.js, index.html, style.css, package.json and existing
+engine tests. Checked the full source-package files for common secret,
+bank-identifier and contact-data patterns. No network or publication actions
+were performed. Submission and documentation files were not edited.
+
+Existing tests
+Command, from the source directory:
+node --test engine.test.mjs
+Result: 15 tests passed, 0 failed, 0 skipped.
+
+Additional application checks
+Executed the actual app.js after removing its static import, in Node VM
+with the real exported engine and small DOM/storage/download mocks. These
+checks exercised event handlers and persistence rather than substituting a
+separate planner. Network interfaces were denied and counted. All 14
+scenarios passed:
+1. Fresh boot remains idle; confirm and export are disabled.
+2. Start selects the default feasible express bus.
+3. The EUR10 budget button replans to the replacement train.
+4. Confirmation remains explicitly simulated: no ticket bought, real
+   calendar changed or household message sent.
+5. An invalid sub-cent budget leaves confirmed state untouched.
+6. An invalid deadline cannot partially apply a valid new budget.
+7. An infeasible form clears confirmation and disables confirmation.
+8. Reset stays idle after loading a new app session.
+9. A valid confirmed session restores as simulated confirmation.
+10. Malformed JSON and invalid saved constraints reset safely.
+11. Untrusted saved route labels and tool traces do not enter rendered or
+    reconstructed state.
+12. Disabled browser storage still permits the simulation and displays its
+    persistence limitation.
+13. The actual export handler creates parseable JSON, the expected filename
+    and the explicit fictional disclaimer. Every trace is simulated,
+    externalActionsPerformed is false, and messageSent is false. The object
+    URL is revoked after the download trigger.
+14. Exercised handlers made 0 external request attempts.
+
+Data and publication observations
+The application has no fetch, XMLHttpRequest, WebSocket, sendBeacon,
+cookie access, remote script/style import or external asset URL. Static
+same-origin module/style loading is required when serving the application.
+The remaining header link targets the local explanation section.
+
+The browser storage key retains only the fictional planning state. All
+displayed route/calendar/household values originate in synthetic fixtures;
+there are no personal account details, financial credentials or actual
+transport reservations. Dynamically rendered string content is escaped.
+The export includes an explicit fictional disclaimer and synthetic state.
+
+A pattern pass over 12 source-package files found 0 matches for private
+keys, common GitHub/Stripe/OpenAI/AWS secrets, complete IBANs or email
+addresses. This supports publication of this reviewed source directory;
+it does not cover files outside the package or later modifications.
+
+Session restoration reconstructs the mock trace from saved constraints.
+It is a current simulated snapshot, not an independently verified history.
+The README explicitly describes this limitation. There is no live AI,
+Alexa/AWS integration, real calendar access, messaging or payment action.
+
+Limits
+The additional checks above used Node VM and mocked browser APIs, not a new
+browser session or an external-service test. They verify the current source
+logic and exported JSON contract. Prior browser evidence is separate.
+
+SHA256 of reviewed executable/source files
+app.js
+a72f3b48be7f5387f3c888d99c30224c8dd15292243ee7fa9c12949563f8d652
+engine.js
+f301279fd755acec418b73155caace445d7c1ee90c711090679840d421ae2398
+engine.test.mjs
+94fccc79a6885dac4599eed5259573acd98ab187bf2038b7c62cc499afa85ad2
+index.html
+e8abf73d76b4503032f843ced578a0f69eb7743b1ed71f4721ef7ce62fa0c3d0
+style.css
+8c859526a74111d1452ca5609a94653a670699c342c3f4c03eb5d8f116ea4c68
+package.json
+6872680fb99dc6782cda45f8f49cf7603edcb716be8ec99b9f0f9b2db3a92670
