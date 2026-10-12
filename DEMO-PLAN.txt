@@ -10,9 +10,9 @@ Six actual browser screenshots of the working prototype are presented as an edit
 40–50 seconds: A 30-minute deadline with a €10 budget produces an infeasible state and clears confirmation.
 50–60 seconds: A full bus triggers automatic replanning to the replacement train.
 
-The JSON export was independently downloaded and verified, but is not shown in this prepared video. No public video URL exists yet. A public YouTube/Vimeo upload remains necessary; a local MP4 is not an entry.
+The JSON export was independently downloaded and verified, but is not shown in this prepared video. The user published the video at https://www.youtube.com/watch?v=F7Xak9Q8ysY. Public playback, completed SD/HD processing and the working Devpost embed were verified on October 11, 2026. English video language and six SRT cues were saved; actual caption text rendering during playback was not independently confirmed.
 
-CENTRAL SUBMISSION READINESS — checked October 11, 2026
+CENTRAL SUBMISSION STATUS — verified October 11, 2026, 21:40 UTC; documentation updated October 12, 2026
 
 Official reference: https://amazonappdev2026.devpost.com/rules
 Relevant path: Alexa+ alternative simulation, current rules paragraphs shown at lines 199–200. No particular framework or MCP surface is required for that path; source and a demonstrated simulation remain necessary. Acceptance is the organizers' decision.
@@ -20,12 +20,12 @@ Deadline: October 23, 2026, 12:00 PDT / 19:00 UTC / 21:00 Europe/Amsterdam.
 
 READY: new local prototype; English description; MIT license; source and run instructions; tests; truthful AI-assisted-development disclosure.
 SOURCE: https://github.com/BizzKittai/backontrack — public GitHub repository with MIT license; all 13 source/documentation files were verified against the reviewed local package on October 11, 2026.
-MISSING: public YouTube/Vimeo video link, under three minutes. A local MP4 alone does not complete this item. VIDEO_URL=PLACEHOLDER_MISSING.
-OWNER-ONLY PREVIEW: cannot establish judging access; sharing must be verified.
+VIDEO: https://www.youtube.com/watch?v=F7Xak9Q8ysY — public 60-second demonstration; saved Devpost URL: https://youtube.com/shorts/F7Xak9Q8ysY?feature=share.
+OWNER-ONLY PREVIEW: does not establish judging access; the submission provides public source, local run instructions and a public demonstration video.
 REGISTERED: hackathon registration completed by the authorized user and confirmed by Devpost on October 11, 2026.
 PERSONAL FEEDBACK: the authorized user supplied the required learning, career-value and future-use answers; these were saved in the project draft.
-PENDING HUMAN: final project eligibility declarations and final submission terms/action. No declaration has been fabricated.
-DRAFT SAVED: BackOnTrack project 1232081; name/pitch, description, HTML/CSS/JavaScript tags, public source URL, Organization BizzKitt BV, Netherlands, New, Alexa+ track and factual feedback. AWS Builder and Open Source mini challenges: No.
-PENDING: public video and subtitles, final personal declarations and final submission.
+HUMAN COMPLETED: the authorized user confirmed the three personal project declarations and performed the final terms/submission action. These statements were not fabricated; successful submission does not independently establish legal eligibility.
+SUBMITTED: BackOnTrack project 1232081; name/pitch, description, HTML/CSS/JavaScript tags, public source and video URLs, Organization BizzKitt BV, Netherlands, New, Alexa+ track and factual feedback. AWS Builder and Open Source mini challenges: No. Public project: https://devpost.com/software/backontrack.
+VERIFIED: “Project submitted!” confirmation, Submitted to Amazon Developer Hackathon and matching submission history. No further registration, declaration or submission action is currently required.
 NOT CLAIMED: AWS Builder mini challenge, integration performance, friction-log bonus or an existing winner.
-STATUS: unsubmitted. AWARD: none. RECEIVED REVENUE: 0.
+STATUS: submitted; awaiting organizer/jury assessment. AWARD: none confirmed. RECEIVED REVENUE: EUR0 confirmed. The application and its existing test evidence are unchanged.

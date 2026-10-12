@@ -48,9 +48,9 @@ The export is a local snapshot of simulated state, not a tamper-proof audit log.
 - `DEMO-PLAN.txt`: proposed demonstration and the central submission readiness record.
 - `TEST-EVIDENCE.txt`: verified checks and their limits.
 
-Source repository: https://github.com/BizzKittai/backontrack. The public YouTube/Vimeo video is still pending. The 60-second local MP4 is an edited sequence of actual browser screenshots; it is not a continuous live recording. Any owner-only hosted preview is separate from the contest's source/video deliverables. See `DEMO-PLAN.txt` for the current readiness status and official reference.
+Source repository: https://github.com/BizzKittai/backontrack. Public demo: https://www.youtube.com/watch?v=F7Xak9Q8ysY. Submitted project: https://devpost.com/software/backontrack. The 60-second video is an edited sequence of actual browser screenshots; it is not a continuous live recording. Any owner-only hosted preview is separate from the contest's public source/video deliverables. See `DEMO-PLAN.txt` for the submission status and official reference.
 
-The alternate simulation route is stated in the contest rules. Individual admission of this deterministic prototype remains the organizers' decision. The authorized user completed hackathon registration on October 11, 2026, and the BackOnTrack project draft was saved. The public demo video and final eligibility declarations remain pending. No final submission or prize has been confirmed.
+The alternate simulation route is stated in the contest rules. The authorized user completed registration, confirmed the personal project declarations and performed the final submission on October 11, 2026. Devpost's “Project submitted!” confirmation, Submitted to listing and submission history were verified at 21:40 UTC. This verifies submission, not jury acceptance, an award or payment. Individual project eligibility and judging remain the organizers' decision; no prize or payment has been confirmed.
 
 ## License
 
